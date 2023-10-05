@@ -110,17 +110,17 @@ body {
     border-radius: 50%;
 }
 
-.nombre-text {
+.texto_nombre {
     margin-left: 8%;
 }
 
-.nombre-text h2 {
+.texto_nombre h2 {
     color: hsl(300, 24%, 96%);
     font-size: 18px;
     font-weight: 500;
 }
 
-.nombre-text p {
+.texto_nombre p {
     color: hsl(333, 80%, 67%);
     font-size: 16px;
     font-weight: 400;
@@ -128,7 +128,7 @@ body {
     letter-spacing: 1px;
 }
 
-.resena-text {
+.texto_resena {
     padding: 0 8%;
     color: hsl(300, 24%, 96%);
     font-weight: 400;
