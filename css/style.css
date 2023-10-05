@@ -10,7 +10,7 @@ body {
     height: 100%;
 }
 
-.card {
+.tarjeta {
     background-image: 
     url(./images/bg-pattern-top-desktop.svg),
     url(./images/bg-pattern-bottom-desktop.svg);
@@ -27,13 +27,13 @@ body {
     font-family: 'League Spartan', sans-serif;
 }
 
-.info {
+.informacion {
     padding-right: 25%;
     display: flex;
     flex-direction: column;
 }
 
-.info h1 {
+.informacion h1 {
     width: 90%;
     font-weight: 700;
     color: hsl(300, 43%, 22%);
@@ -41,7 +41,7 @@ body {
     line-height: 80%;
 }
 
-.info p {
+.informacion p {
     color: hsl(300, 43%, 22%);
     margin-top: 8%;
     font-size: 15px;
@@ -49,12 +49,12 @@ body {
     line-height: 160%;;
 }
 
-.rating {
+.calificacion {
     display: flex;
     flex-direction: column;
 }
 
-.rating p {
+.calificacion p {
     width: 80%;
     color: hsl(300, 43%, 22%);
     padding: 4%;
@@ -64,25 +64,25 @@ body {
     border-radius: 10px;
 }
 
-.rating p:nth-of-type(2) {
+.calificacion p:nth-of-type(2) {
     margin-left: 10%;
 }
 
-.rating p:last-of-type {
+.calificacion p:last-of-type {
     margin-left: 20%;
 }
 
-.rating p img:last-of-type {
+.calificacion p img:last-of-type {
     margin-right: 10%;
 }
 
-.reviews-container {
+.contenedor_resenas {
     display: flex;
     width: 1050px;
     justify-content: space-between;
 }
 
-.review {
+.resena {
     display: flex;
     flex-direction: column;
     background-color:hsl(300, 43%, 22%);
@@ -91,36 +91,36 @@ body {
     height: 80%;
 }
 
-.review:nth-of-type(2){
+.resena:nth-of-type(2){
     margin-top: 2%
 }
 
-.review:last-of-type {
+.resena:last-of-type {
     margin-top: 4%;
 }
 
-.name {
+.nombre {
     display: flex;
     align-items: center;
     margin: 10%;
 }
 
-.name img {
+.nombre img {
     width: 15%;
     border-radius: 50%;
 }
 
-.name-text {
+.nombre-text {
     margin-left: 8%;
 }
 
-.name-text h2 {
+.nombre-text h2 {
     color: hsl(300, 24%, 96%);
     font-size: 18px;
     font-weight: 500;
 }
 
-.name-text p {
+.nombre-text p {
     color: hsl(333, 80%, 67%);
     font-size: 16px;
     font-weight: 400;
@@ -128,7 +128,7 @@ body {
     letter-spacing: 1px;
 }
 
-.review-text {
+.resena-text {
     padding: 0 8%;
     color: hsl(300, 24%, 96%);
     font-weight: 400;
@@ -136,7 +136,7 @@ body {
     font-size: 16px;
 }
 
-.attribution {
+.atribucion {
     text-align: center;
     margin-bottom: 50px;;
 }
@@ -148,7 +148,7 @@ body {
         height: 100%;
     }
 
-    .card {
+    .tarjeta {
         background-image: 
         url(./images/bg-pattern-top-mobile.svg),
         url(./images/bg-pattern-bottom-mobile.svg);
@@ -162,7 +162,7 @@ body {
         font-family: 'League Spartan', sans-serif;
     }
 
-    .info {
+    .informacion {
         margin-top: 10%;
         text-align: center;
         align-items: center;
@@ -170,38 +170,38 @@ body {
         width: 90%;
     }
 
-    .info h1 {
+    .informacion h1 {
         font-size: 38px;
         width: 100%;
     }
 
-    .rating p {
+    .calificacion p {
         width: 90%;
         text-align: center;
     }
 
-    .rating p:nth-of-type(2) {
+    .calificacion p:nth-of-type(2) {
         margin-left: 0%;
     }
 
-    .rating p:last-of-type {
+    .calificacion p:last-of-type {
         margin-left: 0%;
     }
 
-    .rating p img {
+    .calificacion p img {
         width: 8%;
         margin-bottom: 2%;
     }
 
-    .rating p img:first-of-type {
+    .calificacion p img:first-of-type {
         margin-left: 50px;
     }
 
-    .rating p img:last-of-type {
+    .calificacion p img:last-of-type {
         margin-right: 60px;
     }
 
-    .reviews-container {
+    .contenedor_resenas {
         display: flex;
         width: 92%;
         flex-direction: column;
@@ -209,7 +209,7 @@ body {
         align-items: center;
     }
     
-    .review {
+    .resena {
         display: flex;
         flex-direction: column;
         background-color:hsl(300, 43%, 22%);
