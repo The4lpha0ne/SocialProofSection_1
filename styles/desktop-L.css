@@ -1,0 +1,152 @@
+.pattern-top {
+  display: none;
+}
+
+.pattern-top-desktop {
+  position: absolute;
+  top: 0;
+  display: block;
+}
+
+.title {
+  margin: 6.3rem 0 2rem 18rem;
+  width: 26.8rem;
+  font-size: 4.2rem;
+  text-align: left;
+}
+
+.description {
+  margin: 0 0 0 18rem;
+  width: 35rem;
+  font-size: 1.4rem;
+  line-height: 1.4;
+  text-align: left;
+}
+
+.rated-section {
+  position: absolute;
+  top: 11rem;
+  right: 18rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 50rem;
+  max-width: 87.5rem;
+}
+.rated-section__card--1 {
+  display: flex;
+  align-items: center;
+  width: 35rem;
+  height: 4.3rem;
+  margin-right: 7.2rem;
+}
+.rated-section__card--1 div {
+  width: 2rem;
+  height: 1rem;
+}
+.rated-section__card--1 img {
+  margin: 0.875rem 0 0.875rem 0.7rem;
+  width: 1.3rem;
+  height: 1.28rem;
+}
+.rated-section__card--1 p {
+  margin-left: 2.4rem;
+  font-size: 1.3rem;
+}
+.rated-section__card--2 {
+  display: flex;
+  align-items: center;
+  width: 35rem;
+  height: 4.3rem;
+  margin-right: 3.6rem;
+}
+.rated-section__card--2 div {
+  width: 2rem;
+  height: 1rem;
+}
+.rated-section__card--2 img {
+  margin: 0.875rem 0 0.875rem 0.7rem;
+  width: 1.3rem;
+  height: 1.28rem;
+}
+.rated-section__card--2 p {
+  margin-left: 2.4rem;
+  font-size: 1.3rem;
+}
+.rated-section__card--3 {
+  display: flex;
+  align-items: center;
+  width: 35rem;
+  height: 4.3rem;
+}
+.rated-section__card--3 div {
+  width: 2rem;
+  height: 1rem;
+}
+.rated-section__card--3 img {
+  margin: 0.875rem 0 0.875rem 0.7rem;
+  width: 1.3rem;
+  height: 1.28rem;
+}
+.rated-section__card--3 p {
+  margin-left: 2.4rem;
+  font-size: 1.3rem;
+}
+
+.opinion-section {
+  position: absolute;
+  top: 34rem;
+  left: 18rem;
+  display: flex;
+  margin: 0;
+  width: 90rem;
+  max-width: 2000px;
+}
+.opinion-section__card {
+  margin-right: 2.5em;
+  width: 29rem;
+  height: 18.5rem;
+}
+.opinion-section__card--title {
+  padding: 3.1rem 0 2rem 2.4rem;
+}
+.opinion-section__card--title img {
+  width: 3.3rem;
+}
+.opinion-section__card--title-text {
+  margin-left: 1.9rem;
+  font-size: 1.4rem;
+}
+.opinion-section__card--title-name {
+  font-size: 1.45rem;
+}
+.opinion-section__card--title-verified {
+  font-size: 1.36rem;
+}
+.opinion-section__card--opinion {
+  font-size: 1.28rem;
+}
+.opinion-section .card-2 {
+  margin-top: 1.2rem;
+}
+.opinion-section .card-3 {
+  margin-top: 2.4rem;
+}
+
+.pattern-bottom {
+  display: none;
+}
+
+.pattern-bottom-desktop {
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0%;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+  left: 26%;
+  margin: 0;
+}/*# sourceMappingURL=desktop-L.css.map */
